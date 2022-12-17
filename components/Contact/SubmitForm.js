@@ -3,8 +3,8 @@ import React, { useState } from "react";
 import GoogleCaptcaha from "../Recaptcha/GoogleCaptcaha";
 import SectionBuz from "../SectionBuzCircle";
 import Modal1 from "./Modal";
-import PhoneInput from "react-phone-input-2";
-import "react-phone-input-2/lib/style.css";
+  import PhoneInput from "react-phone-input-2";
+  import "react-phone-input-2/lib/style.css";
 
 const SubmitForm = () => {
   const [modalOpen, setModalOpen] = useState(false);
@@ -13,7 +13,7 @@ const SubmitForm = () => {
     e.preventDefault();
   };
   return (
-    <section className="container bg-white rounded-4 mt-4 mb-3">
+    <section className="container bg-white rounded-4 mt-4 mb-3 ">
       <div className="row upset">
         <div className="col-lg-8 col-md-6 col-12">
           <section className="container mt-5 ">

@@ -14,12 +14,12 @@ const services = () => {
       <div className="position-relative ">
         <div className="specail_backgroud">
           <Header />
-          <section className=" blog_section" id="services">
-            <div className="container ">
-              <div className="row upset">
-                <div className="title text-center faq_top_magin faq_section_size ">
-                  <h1 className=""> Contact Us </h1>
-                </div>
+          <section className=" blog_section" id="services" style={{height: "12rem"}}>
+          <div className="container ">
+              <div className="d-flex align-items-center justify-content-center">
+                {/* <div className="title text-center faq_top_magin faq_section_size "> */}
+                  <h1 className="" style={{fontSize: "4rem"}}> Contact Us </h1>
+                {/* </div> */}
               </div>
             </div>
           </section>

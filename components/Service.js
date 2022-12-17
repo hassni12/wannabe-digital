@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col } from "reactstrap";
+  import { Container, Row, Col } from "reactstrap";
 import ServicesCard from "./Cards/ServicesCard";
 
 const Service = () => {

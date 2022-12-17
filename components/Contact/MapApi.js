@@ -2,7 +2,7 @@ import Head from "next/head";
 // import styles from '../styles/Home.module.css'
 import mapboxgl from "mapbox-gl/dist/mapbox-gl.js";
 import { useState, useEffect } from "react";
-
+import GoogleMapReact from "google-map-react"
 export default function MapApi() {
   const [Map, setMap] = useState();
 
@@ -15,7 +15,7 @@ export default function MapApi() {
       style: "mapbox://styles/mapbox/streets-v12", // style URL
       center: [-74.5, 40], // starting position [lng, lat]
       zoom: 9,
-      // scrollZoom: false
+    
     });
     map.addControl(new mapboxgl.NavigationControl(), 'top-right');
     setMap(map);

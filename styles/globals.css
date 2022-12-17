@@ -180,9 +180,13 @@ p {
   color:white;
   background-color: var(--primary)!important;
 }
+.career_position_application_hero_main_page_vh{
+
+  min-height: 100vh;
+}
 .Submit_btu{
   padding: 1rem 2rem;
-  font-weight: 800;
+  font-weight: 600;
   font-size: larger;
   background-color: var(--primary);
 
@@ -254,6 +258,7 @@ input[type=number]:focus,
   background-position: center;
 }
 
+
 /* font-size: 32px; */
 .hero_middle {
   position: absolute;
@@ -275,6 +280,10 @@ input[type=number]:focus,
 .career_hero_page_vh{
   min-height: 200vh;
  
+}
+.career_position_hero_main_page_vh{
+  min-height:300vh;
+
 }
 .margin_top_career_section{
 margin-top: 12rem;
@@ -340,7 +349,9 @@ margin-top: 12rem;
 .team_image_container {
   margin-left: -8rem;
 }
-
+.seo_hero_main_page_vh{
+  min-height: 170vh;
+}
 .wrapper_background_portfolio {
   background-image: url("../public/images/portfolio_back.png");
   background-attachment: initial;
@@ -351,6 +362,15 @@ margin-top: 12rem;
   /* background-color:white !important; */
 
   background-position: initial;
+}
+
+.submited_application{
+  background-image: url("../public/images/bee 36.png");
+  background-repeat: no-repeat;
+  background-size: 40% 60%;
+  
+  background-position: right;
+  
 }
 .slick-prev:before,
 .slick-next:before {

@@ -1,9 +1,9 @@
 import React from "react";
-import Header from "../components/Header";
-import BuzCircleForAboutUsSection from "../components/BuzCircleForAboutUsSection";
-import CareerPosition from "../components/Careers/CareerPosition";
-import Positions from "../components/Careers/Positions"
-import Footer from "../components/Footer";
+import Header from "./../components/Header";
+import BuzCircleForAboutUsSection from "./../components/BuzCircleForAboutUsSection";
+import CareerPosition from "./../components/Careers/CareerPosition";
+import Positions from "./../components/Careers/Positions"
+import Footer from "./../components/Footer";
 const Careers = () => {
   return (
     <div>

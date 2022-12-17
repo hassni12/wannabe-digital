@@ -29,6 +29,7 @@ const CareerHeroSection = () => {
                   <li>Completely remote</li>
                 </ul>
                 
+                
               </div>
             </div>
 
@@ -43,9 +44,9 @@ const CareerHeroSection = () => {
           </div>
           <div className="row upset">
           <div className="col-lg-12 col-md-6 col-12 mx-auto"style={{marginTop:"10rem"}}>
-            <p className="text-center " >
+            <h3 className="text-center  " >
             Currently no job Avaliable 
-            </p>
+            </h3>
           </div>
           </div>
         </section>

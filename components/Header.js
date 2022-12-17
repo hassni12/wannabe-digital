@@ -45,7 +45,7 @@ const Header = () => {
               <img
                 src={"./images/logo.png"}
                 className="img-fluid mt-3 "
-                style={{ height:85 , width: 100 }}
+                style={{ height:85 , width: 95}}
                 alt=""
               />
             </div>
